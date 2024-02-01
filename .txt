@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int articoli;
+    printf("Benvenuti su ..., qui troverai a tua disposizione tutto ciò di cui hai bisogno solo una volta .. perchè comprare un articolo quando puoi noleggiarne uno?\n");
+    printf("cosa vorresti noleggiare?\n");
+    printf("seleziona la categoria:\n 1)sport e tempo libero\n 2)elettrodomestici\n 3)articoli per la casa\n 4)strumenti ed articoli musicali\n 5)giardinaggio, puliza e servizi\n ");
+    scanf("%d", &articoli);
+}
